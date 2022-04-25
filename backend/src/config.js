@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "humanoidbird.xyz";
+const namePrefix = "Humanoid Bird";
 const description = "Breakthrough digital art project";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -48,9 +48,9 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'humanoidbird.xyz';
+const CONTRACT_NAME = 'Humanoid Bird';
 const CONTRACT_SYMBOL = 'HMB';
-const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
+const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x3ed06815F9cCED8eB6B080407f49CBdE52914EfC';
 const TREASURY_ADDRESS = '0x3ed06815F9cCED8eB6B080407f49CBdE52914EfC';
 const MAX_SUPPLY = 500; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
@@ -61,7 +61,7 @@ const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a singl
 const PUBLIC_MINT_START_DATE = "2022-04-17T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-04-17T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-04-24T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x3ed06815F9cCED8eB6B080407f49CBdE52914EfC"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
