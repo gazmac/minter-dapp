@@ -49,7 +49,7 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Humanoid Birds';
-const CONTRACT_SYMBOL = 'HMB';
+const CONTRACT_SYMBOL = 'HBD';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x3ed06815F9cCED8eB6B080407f49CBdE52914EfC';
 const TREASURY_ADDRESS = '0x3ed06815F9cCED8eB6B080407f49CBdE52914EfC';
@@ -75,7 +75,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which Humanoid Birds will you get?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreicwr4lqlivrycyhyosvm7ij6hrzmcmumdldquovopwekhqwe4gjqe"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = ""; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
