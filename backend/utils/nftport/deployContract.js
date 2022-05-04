@@ -36,7 +36,7 @@ const deployContract = async () => {
     console.log("Exiting...");
     process.exit(0);
   }
-
+//
   if(GENERIC) {
     try {
       let jsonFile = fs.readFileSync(`${basePath}/build/ipfsMetasGeneric/_ipfsMetasResponse.json`);
